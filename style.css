@@ -1,7 +1,37 @@
 .footer{
-	position: absolute;
+	position: fixed;
 	bottom: 0;
-	height:60px;
+	height:40px;
 	width:100%;
 	vertical-align: middle;
+	padding-top: 10px;
+	color:white;
+}
+.nav1{
+	position:fixed;
+	top:0;
+	width:100%;
+	z-index:2;
+}
+.panel1{
+	margin-top:80px;
+} 
+.img1:hover {
+	background-color: #4CAF50;
+  	border: none;
+  	border-radius: 15px;
+  	box-shadow: 0 9px #999;
+}
+.spacing{
+	height:30px;
+}
+.spacing{
+	padding-bottom:30px;
+}
+.img2:hover{
+	opacity: 0.8;
+	box-shadow: 0 1px 8px black;
+}
+.panel-heading{
+	font-size:18px
 }
